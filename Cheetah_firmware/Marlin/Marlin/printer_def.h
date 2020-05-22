@@ -369,7 +369,6 @@
 #define Z_HOME_DIR -1 //This defines the homing direction. Change between values of 1 and -1 to change direction
 #endif
 
-
 //continue with printer definitions. 
 
 #if ENABLED(INVERT_XYZ) //function swops all available axis except E0. E0 found in seciton 13.
