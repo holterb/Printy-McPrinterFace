@@ -1,0 +1,1 @@
+Simple Bias Tape Maker tool, zakladac pasku - 3cm / 3.5cm / 4cm (1,5 in) / 5cm  by ongaroo on Thingiverse: https://www.thingiverse.com/thing:4234257

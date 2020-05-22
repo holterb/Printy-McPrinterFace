@@ -1,0 +1,1 @@
+{M3 Nut Holder for Duct Installation %!s(bool=true)} by {BoothyBoothy %!s(bool=true)} on Thingiverse: https://www.thingiverse.com/thing:4062284

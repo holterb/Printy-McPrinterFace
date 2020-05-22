@@ -1,0 +1,1 @@
+Original Hot End Fix Creality , Tevo Tornado, Tronxy, JG Aurora by L3D_Help_Guide on Thingiverse: https://www.thingiverse.com/thing:3203831

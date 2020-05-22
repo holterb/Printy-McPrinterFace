@@ -1,0 +1,1 @@
+Covid 19 "No-touch" hand tool for buttons, switches, doors etc by rjelbert on Thingiverse: https://www.thingiverse.com/thing:4231395

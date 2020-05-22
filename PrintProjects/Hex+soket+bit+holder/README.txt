@@ -1,0 +1,1 @@
+Hex soket bit holder by nikutama05 on Thingiverse: https://www.thingiverse.com/thing:4236863
