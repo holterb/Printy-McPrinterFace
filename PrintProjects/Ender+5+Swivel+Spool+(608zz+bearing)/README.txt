@@ -1,0 +1,1 @@
+Ender 5 Swivel Spool (608zz bearing) by klackygears on Thingiverse: https://www.thingiverse.com/thing:4270864

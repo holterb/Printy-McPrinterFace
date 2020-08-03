@@ -1,0 +1,1 @@
+Thread Gauge IMPERIAL / METRIC by Intellect_Czech on Thingiverse: https://www.thingiverse.com/thing:4247176

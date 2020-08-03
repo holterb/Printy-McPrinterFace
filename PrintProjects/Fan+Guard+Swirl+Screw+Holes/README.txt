@@ -1,0 +1,1 @@
+40mm Swirl Fan Guard w/ Screw Holes by ChaosBlades on Thingiverse: https://www.thingiverse.com/thing:4183987
