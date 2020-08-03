@@ -167,7 +167,7 @@
   #define THERMAL_PROTECTION_PERIOD 40        // Seconds
   #define THERMAL_PROTECTION_HYSTERESIS 4     // Degrees Celsius
 
-  //#define ADAPTIVE_FAN_SLOWING              // Slow part cooling fan if temperature drops
+  #define ADAPTIVE_FAN_SLOWING              // Slow part cooling fan if temperature drops
   #if BOTH(ADAPTIVE_FAN_SLOWING, PIDTEMP)
     //#define NO_FAN_SLOWING_IN_PID_TUNING    // Don't slow fan speed during M303
   #endif
@@ -2130,7 +2130,7 @@
 #if AXIS_DRIVER_TYPE_X(TMC2208)
     #define X_CURRENT 760 // for TMC2208 only
     #else
-    #define X_CURRENT       580        // (mA) RMS current. Multiply by 1.414 for peak current.
+    #define X_CURRENT       750        // (mA) RMS current. Multiply by 1.414 for peak current.
     #endif //x driver current swtich
     #define X_CURRENT_HOME  X_CURRENT  // (mA) RMS current for sensorless homing
     #define X_MICROSTEPS     16    // 0..256
@@ -2150,7 +2150,7 @@
 #if AXIS_DRIVER_TYPE_Y(TMC2208)
     #define Y_CURRENT 760 // for TMC2208 only
     #else
-    #define Y_CURRENT       580        // (mA) RMS current. Multiply by 1.414 for peak current.
+    #define Y_CURRENT       750        // (mA) RMS current. Multiply by 1.414 for peak current.
     #endif //x driver current swtich
     #define Y_CURRENT_HOME  Y_CURRENT
     #define Y_MICROSTEPS     16
@@ -2171,7 +2171,7 @@
 #if AXIS_DRIVER_TYPE_Z(TMC2208)
     #define Z_CURRENT 760 // for TMC2208 only
     #else
-    #define Z_CURRENT       580        // (mA) RMS current. Multiply by 1.414 for peak current.
+    #define Z_CURRENT       650        // (mA) RMS current. Multiply by 1.414 for peak current.
     #endif //x driver current swtich
     #define Z_CURRENT_HOME  Z_CURRENT
     #define Z_MICROSTEPS     16

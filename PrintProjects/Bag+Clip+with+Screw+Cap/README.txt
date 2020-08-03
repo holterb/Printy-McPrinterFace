@@ -1,0 +1,1 @@
+Bag Clip with Screw Cap by Frambl on Thingiverse: https://www.thingiverse.com/thing:4091162

@@ -1,0 +1,1 @@
+Print in Place Dial-Indicator! - For easy Bed leveling! by Turbo_SunShine on Thingiverse: https://www.thingiverse.com/thing:4524389

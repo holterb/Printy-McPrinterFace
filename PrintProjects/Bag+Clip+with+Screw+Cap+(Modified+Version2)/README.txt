@@ -1,0 +1,1 @@
+{Bag Clip with Screw Cap (Modified Version2) %!s(bool=true)} by {dhp73 %!s(bool=true)} on Thingiverse: https://www.thingiverse.com/thing:4078291
