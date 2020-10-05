@@ -240,7 +240,7 @@ Board name: FYSETCV1_1A, FYSETCV1_1B, FYSETCV1_2A, FYSETCV1_2B, change_value = S
 
 /*** *** ***  Section 9A - Do you have an auto bed leveling sensor installed? **** *** ***/
 
-//#define Auto_bed_level // Please ignore if you DO NOT have an auto bed levelling sensor installed
+#define Auto_bed_level // Please ignore if you DO NOT have an auto bed levelling sensor installed
 
 /*** *** ***  Section 9B - Do you have an auto bed leveling sensor installed? **** *** ***/
 
@@ -314,7 +314,7 @@ Board name: FYSETCV1_1A, FYSETCV1_1B, FYSETCV1_2A, FYSETCV1_2B, change_value = S
 #define DEFAULT_RETRACT_ACCELERATION  500    // E acceleration for retracts. Change if you like
 #define DEFAULT_TRAVEL_ACCELERATION   500    // X, Y, Z acceleration for travel (non printing) moves. Change if you like
 //#define FAST_PROBEK // If Enabled, probing speed across mulitple probes will be the same. Only do this if your sensor is accurate from the get go
-#define HOMING_MOVEMENT_SPEEDK 2 // Acceptable values are 1 (default), 2, 3, 4, 5 and 6. Please watch out for speeds 5 and 6. These changes your printer's XY homing AND LCD XY manual movement speed.
+#define HOMING_MOVEMENT_SPEEDK 4 // Acceptable values are 1 (default), 2, 3, 4, 5 and 6. Please watch out for speeds 5 and 6. These changes your printer's XY homing AND LCD XY manual movement speed.
 #if DISABLED(CLASSIC_JERK)
   #define JUNCTION_DEVIATION_MM 0.08 // (mm) Distance from real junction edge. You can tune this and change it at a later time.
 #endif
@@ -443,7 +443,7 @@ Board name: FYSETCV1_1A, FYSETCV1_1B, FYSETCV1_2A, FYSETCV1_2B, change_value = S
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "MrEnder-1.3.0"
+#define CUSTOM_MACHINE_NAME "MrEnder-1.3.1"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
@@ -1597,7 +1597,7 @@ Board name: FYSETCV1_1A, FYSETCV1_1B, FYSETCV1_2A, FYSETCV1_2B, change_value = S
  * Normally G28 leaves leveling disabled on completion. Enable
  * this option to have G28 restore the prior leveling state.
  */
-//#define RESTORE_LEVELING_AFTER_G28
+#define RESTORE_LEVELING_AFTER_G28
 
 /**
  * Enable detailed logging of G28, G29, M48, etc.

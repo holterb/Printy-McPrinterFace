@@ -1004,15 +1004,15 @@
   #endif
 
    #if (HOMING_MOVEMENT_SPEEDK==4)
-  #define MANUAL_FEEDRATE { 130*60, 130*60, 8*60, 2*60 } // Feedrates for manual moves along X, Y, Z, E from panel
+  #define MANUAL_FEEDRATE { 130*60, 130*60, 12*60, 2*60 } // Feedrates for manual moves along X, Y, Z, E from panel
   #endif
 
   #if (HOMING_MOVEMENT_SPEEDK==5)
-  #define MANUAL_FEEDRATE { 160*60, 160*60, 8*60, 2*60 } // Feedrates for manual moves along X, Y, Z, E from panel
+  #define MANUAL_FEEDRATE { 160*60, 160*60, 12*60, 2*60 } // Feedrates for manual moves along X, Y, Z, E from panel
   #endif
 
   #if (HOMING_MOVEMENT_SPEEDK==6)
-  #define MANUAL_FEEDRATE { 200*60, 200*60, 8*60, 2*60 } // Feedrates for manual moves along X, Y, Z, E from panel
+  #define MANUAL_FEEDRATE { 200*60, 200*60, 14*60, 2*60 } // Feedrates for manual moves along X, Y, Z, E from panel
   #endif
   #define SHORT_MANUAL_Z_MOVE 0.025 // (mm) Smallest manual Z move (< 0.1mm)
   #if ENABLED(ULTIPANEL)
@@ -1370,7 +1370,7 @@
   //#define STATUS_FAN_FRAMES 3       // :[0,1,2,3,4] Number of fan animation frames
   #define STATUS_HEAT_PERCENT       // Show heating in a progress bar
   //#define BOOT_MARLIN_LOGO_SMALL    // Show a smaller Marlin logo on the Boot Screen (saving 399 bytes of flash)
-  //#define BOOT_MARLIN_LOGO_ANIMATED // Animated Marlin logo. Costs ~‭3260 (or ~940) bytes of PROGMEM.
+  #define BOOT_MARLIN_LOGO_ANIMATED // Animated Marlin logo. Costs ~‭3260 (or ~940) bytes of PROGMEM.
 
   // Frivolous Game Options
   //#define MARLIN_BRICKOUT
@@ -1847,13 +1847,13 @@
 // enter the serial receive buffer, so they cannot be blocked.
 // Currently handles M108, M112, M410
 // Does not work on boards using AT90USB (USBCON) processors!
-//#define EMERGENCY_PARSER
+#define EMERGENCY_PARSER
 
 // Bad Serial-connections can miss a received command by sending an 'ok'
 // Therefore some clients abort after 30 seconds in a timeout.
 // Some other clients start sending commands while receiving a 'wait'.
 // This "wait" is only sent when the buffer is empty. 1 second is a good value here.
-//#define NO_TIMEOUTS 1000 // Milliseconds
+#define NO_TIMEOUTS 1000 // Milliseconds
 
 // Some clients will have this feature soon. This could make the NO_TIMEOUTS unnecessary.
 #define ADVANCED_OK

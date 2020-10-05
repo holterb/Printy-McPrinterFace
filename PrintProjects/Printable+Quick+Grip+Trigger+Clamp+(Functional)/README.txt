@@ -1,0 +1,1 @@
+Printable Quick Grip Trigger Clamp (Functional) by Arron_mollet22 on Thingiverse: https://www.thingiverse.com/thing:3577523
