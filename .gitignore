@@ -1,3 +1,6 @@
 Cheetah_firmware/Marlin/lib
 PrintProjects/My_Projects/Holter-Family-litho/ItsLitho_HolterFam-Litho.stl
 Cheetah_firmware/cheetah 5.0 R1.4.2/Marlin
+*.history
+*PrintProjects/*
+SuperSlicer_2*
